@@ -38,10 +38,9 @@ optimizer needs the Cooren proxy in `next.config.mjs`; if you change `COOREN_URL
 - `COOREN_URL` **unset** → everything is inlined in the app (used on Vercel, see below).
 - `COOREN_URL` **set** → browsing + the headless-browser reader come from the sidecar (nice for local).
 
-Deployed at `https://akari-iota-eight.vercel.app` (project `asd-b44e/akari`). Deliberately zero-config
-on Vercel, no backend to run: trending/popular/search/detail are served by serverless functions
+Deployed zero-config on Vercel — no backend to run: trending/popular/search/detail are served by serverless functions
 talking to the AllManga GraphQL API. Covers stream via proxies: most images flow from a Cloudflare
-Worker (`akari-img.ayanbasit269.workers.dev`, source in `worker/`) — non-AniList bytes bypass Vercel
+Worker (source in `worker/`) — non-AniList bytes bypass Vercel
 entirely; AniList manually blocks Cloudflare's egress (403 "manually blocked"), so AniList URLs stay on
 Vercel's `/api/img`. Both proxies add the right Referer and stream bytes back (CDNs block direct browser traffic).
 
