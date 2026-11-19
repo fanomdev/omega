@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2400" viewBox="0 0 1600 2400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#1c1204"/><stop offset="1" stop-color="#3d2705"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.62" cy="0.34" r="0.75">
+      <stop offset="0" stop-color="#e8b64c" stop-opacity="0.5"/><stop offset="0.55" stop-color="#e8b64c" stop-opacity="0.1"/><stop offset="1" stop-color="#e8b64c" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope="0.16"/></feComponentTransfer><feComposite operator="in" in2="SourceGraphic"/></filter>
+    <linearGradient id="vign" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="2400" fill="url(#bg)"/>
+  <rect width="1600" height="2400" fill="url(#glow)"/>
+  <g opacity="0.9"><path d="M560 1100 V760 a70 70 0 0 1 140 0 V700 a70 70 0 0 1 140 0 V660 a70 70 0 0 1 140 0 V740 a70 70 0 0 1 140 0 V1150 a220 220 0 0 1 -220 220 H780 a220 220 0 0 1 -220 -220 Z" fill="#e8b64c" opacity="0.92"/></g>
+  <rect width="1600" height="2400" fill="url(#vign)"/>
+  <text x="110" y="150" font-family="'Courier New',monospace" font-size="30" letter-spacing="10" fill="#fff3c9" opacity="0.9">ACTION · AWAKENING</text>
+  <text x="110" y="1560" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="149" letter-spacing="2" fill="#f5f2ea" stroke="rgba(0,0,0,0.35)" stroke-width="3">GOD OF THE</text>
+<text x="110" y="1697.08" font-family="'Arial Black',Arial,sans-serif" font-weight="900" font-size="149" letter-spacing="2" fill="#f5f2ea" stroke="rgba(0,0,0,0.35)" stroke-width="3">UNDERGROUND</text>
+<rect x="110" y="1864.16" width="260" height="14" fill="#fff3c9"/>
+  <rect x="60" y="60" width="1480" height="2280" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="3"/>
+  <rect width="1600" height="2400" fill="#fff" filter="url(#grain)" opacity="0.5"/>
+</svg>

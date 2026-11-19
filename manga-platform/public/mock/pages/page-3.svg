@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1754" viewBox="0 0 1240 1754">
+  <defs><pattern id="ht" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="2.2" fill="#1a1a1a"/></pattern></defs>
+  <rect width="1240" height="1754" fill="#efe9dc"/>
+  <g><rect x="40" y="40" width="1160" height="454.16" fill="#f7f3e8" stroke="#111" stroke-width="6"/><rect x="54" y="54" width="1132" height="426.16" fill="url(#ht)" opacity="0.28"/><circle cx="620" cy="221.66400000000002" r="185.6" fill="#151515"/><rect x="434.40000000000003" y="276.1632" width="371.2" height="227.08" fill="#151515"/></g>
+<g><rect x="40" y="520.1600000000001" width="1160" height="454.16" fill="#f7f3e8" stroke="#111" stroke-width="6"/><rect x="54" y="534.1600000000001" width="1132" height="426.16" fill="url(#ht)" opacity="0.28"/><circle cx="620" cy="701.8240000000001" r="185.6" fill="#151515"/><rect x="434.40000000000003" y="756.3232" width="371.2" height="227.08" fill="#151515"/></g>
+<g><rect x="40" y="1000.3200000000002" width="1160" height="713.68" fill="#f7f3e8" stroke="#111" stroke-width="6"/><rect x="54" y="1014.3200000000002" width="1132" height="685.68" fill="url(#ht)" opacity="0.28"/><circle cx="620" cy="1285.7920000000001" r="185.6" fill="#151515"/><rect x="434.40000000000003" y="1371.4336" width="371.2" height="356.84" fill="#151515"/><text x="1170" y="1688" text-anchor="end" font-family="'Hiragino Mincho ProN','Yu Mincho',serif" font-weight="900" font-size="242.6512" fill="#111" opacity="0.92">ゴゴゴ</text></g>
+</svg>

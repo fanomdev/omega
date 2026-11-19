@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1754" viewBox="0 0 1240 1754">
+  <defs><pattern id="ht" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="2.2" fill="#1a1a1a"/></pattern></defs>
+  <rect width="1240" height="1754" fill="#efe9dc"/>
+  <g><rect x="40" y="40" width="1160" height="824" fill="#f7f3e8" stroke="#111" stroke-width="6"/><rect x="54" y="54" width="1132" height="796" fill="url(#ht)" opacity="0.28"/><path d="M214 452 L562 328.4 L620 575.6 Z" fill="#151515" opacity="0.9"/><path d="M1026 452 L678 328.4 L620 575.6 Z" fill="#151515" opacity="0.9"/><path d="M272 493.20000000000005 L968 410.8" stroke="#f2ede3" stroke-width="37.08"/></g>
+<g><rect x="40" y="890" width="1160" height="824" fill="#f7f3e8" stroke="#111" stroke-width="6"/><rect x="54" y="904" width="1132" height="796" fill="url(#ht)" opacity="0.28"/><path d="M214 1302 L562 1178.4 L620 1425.6 Z" fill="#151515" opacity="0.9"/><path d="M1026 1302 L678 1178.4 L620 1425.6 Z" fill="#151515" opacity="0.9"/><path d="M272 1343.2 L968 1260.8" stroke="#f2ede3" stroke-width="37.08"/><text x="1170" y="1688" text-anchor="end" font-family="'Hiragino Mincho ProN','Yu Mincho',serif" font-weight="900" font-size="280.16" fill="#111" opacity="0.92">斬</text></g>
+</svg>
