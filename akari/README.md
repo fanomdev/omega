@@ -1,5 +1,10 @@
 # Akari — Read the light
 
+## About
+
+Akari reads like a lantern-lit room rather than a database. The catalog comes from AniList; chapters stream through a managed API with an edge worker for caching and cover images, so the browse page is a wall of manga — never a spinner. The UI is deliberately quiet: warm paper tones, a serif display face, a floating frosted-glass tab dock, and just enough motion that turning the chapter never feels mechanical.
+
+
 A clean, minimalist manga reader built with **Next.js 15** (App Router, JavaScript).
 Dark, warm, paper-toned UI with a floating frosted-glass tab dock and a serif display face.
 
